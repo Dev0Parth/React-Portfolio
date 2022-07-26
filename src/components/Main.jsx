@@ -62,6 +62,10 @@ const Blog = styled(NavLink)`
     & > *:hover {
         transform: translateY(0px) scale(1.1) translateZ(0px);
     }
+
+    @media (max-width: 425px) {
+        display: none;
+    }
 `
 
 const Work = styled(NavLink)`
@@ -77,6 +81,10 @@ const Work = styled(NavLink)`
     & > *:hover {
         transform: translateY(0px) scale(1.1) translateZ(0px);
     }
+
+    @media (max-width: 425px) {
+        display: none;
+    }
 `
 
 const BottomBar = styled.div`
@@ -89,6 +97,10 @@ const BottomBar = styled.div`
 
     display: flex;
     justify-content: space-evenly;
+
+    @media (max-width: 425px) {
+        display: none;
+    }
 `
 
 const About = styled(NavLink)`

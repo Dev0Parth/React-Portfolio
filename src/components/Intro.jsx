@@ -28,6 +28,11 @@ const Box = styled(motion.div)`
     border-left: 2px solid ${props => props.theme.text};
     border-right: 2px solid ${props => props.theme.text};
     z-index: 1;
+
+    @media (max-width: 425px) {
+        width: 80vw;
+        height: 20vh;
+    }
 `
 
 const SubBox = styled.div`
@@ -45,6 +50,10 @@ const SubBox = styled.div`
         width: 100%;
         height: auto;
     } */}
+
+    @media (max-width: 425px) {
+        background: transparent;
+    }
 `
 
 const Text = styled.div`
